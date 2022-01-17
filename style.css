@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .showcase{
+    position:absolute;
+    right:0;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    z-index: 2;
+  }
+
+  .logo{
+    position: fixed;
+    /* white log */
+    margin-top: -55px;
+    margin-left: 15px;
+    width: 360px;
+    height: 300px;
+    top: 0;
+    left: 0;
+  }
+  .mid-logo{
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    width: 1000px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: -30px;
+    margin-left: 450px; */
+    display: block;
+    top: -145px;
+  }
+
+  .background{
+    height: 100%;
+    position: relative; /* magic sauce II */
+  }
+  
+  .showcase video{
+    position: fixed; /* magic sauce */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: -1000;
+
+  }
+  .ig-button{
+    position: relative;
+    border: none;
+    font-size: 15px;
+
+    }
+
+  /* Contact Button */
+  .contact-button{
+    position: relative;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 32px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-right: 80px;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 80%, 90% 100%, 0% 100%, 0 10%);
+  }
+
+  .contact-button:hover{
+    background-color: black;
+    color:  white;
+    transition: .4s;
+  }
+
+  .foot-edit{
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    position: absolute;
+    margin-left: 15px;
+    left: 50px;
+    bottom: 75px;
+  }
+
+  .fa{
+    position: absolute;
+    bottom: 120px;
+    right: 80px;
+    font-weight: bold;
+    margin-left: 150px;
+    padding: 10px 12px;
+    content: "";
+    border: none;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 2;
+  }
+
+  .fa:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+ .fa-instagram {
+  background: white;
+  color: black;
+  clip-path: polygon(5% 0%, 100% 0%, 100% 80%, 90% 100%, 0% 100%, 0 10%);
+
+} 
+
+
+  
+
+  
