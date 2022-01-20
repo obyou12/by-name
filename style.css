@@ -23,10 +23,10 @@ html, body {
     position: fixed;
 
     /* white log */
-    margin-top: -55px;
-    margin-left: 15px;
-    width: 360px;
-    height: 300px;
+    margin-top: -120px;
+    margin-left: -10px;
+    width: 500px;
+    height: 450px;
     top: 0;
     left: 0;
   }
@@ -75,8 +75,8 @@ html, body {
     text-decoration: none;
     padding: 15px 35px;
     font-weight: bold;
-    margin-top: 72px;
-    margin-right: 50px;
+    margin-top: 85px;
+    margin-right: 65px;
     clip-path: polygon(5% 0%, 100% 0%, 100% 80%, 90% 100%, 0% 100%, 0 10%);
   }
 
